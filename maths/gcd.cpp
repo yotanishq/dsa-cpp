@@ -1,4 +1,4 @@
-// Euclidean Algorithm
+// Euclidean Algorithm [ GCD (A,B) = GCD (A%B,B) (for a>b)]
 // Time Complexity: O(log min(a, b))
 // Used to compute GCD efficiently
 # include<iostream>
