@@ -18,7 +18,10 @@ bool isPalindrome(int x) {
 
 int main() {
     int x;
+    cout <<"Enter any number(int) : ";
     cin >> x;
-    cout << isPalindrome(x);
+    int is= isPalindrome(x);
+    if (is==1) cout <<"True";
+    else if (is==0) cout <<"False";
     return 0;
 }
