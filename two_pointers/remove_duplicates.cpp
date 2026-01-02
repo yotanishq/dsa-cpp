@@ -6,14 +6,14 @@ using namespace std;
 int main(){
     int n=7;
     int arr[]={1,1,1,2,2,3,4};
-    int index=1;
+    int index=0;
     for(int i=1;i<n;i++){
-        if(arr[i]!=arr[index-1]){
-            arr[index]=arr[i];
+        if(arr[i]!=arr[index]){
+            arr[index+1]=arr[i];
             index++;
         }
     }
-    for(int i=0;i<index;i++){
+    for(int i=0;i<=index;i++){
         cout<<arr[i]<<"\t";
     }
 }
