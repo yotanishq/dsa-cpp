@@ -7,7 +7,6 @@ int main(){
     int n=7;
     int arr[]={0,8,-2,56,0,1,0};
     int index=0;
-    int last=n-1;
     for(int i=0;i<n;i++){
         if(arr[i]!=0){
             arr[index]=arr[i];
