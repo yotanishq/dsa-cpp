@@ -1,3 +1,5 @@
+// Generates Pascal’s Triangle iteratively using the previous row.
+// Time: O(n^2), Space: O(n^2)
 # include<iostream>
 # include<vector>
 using namespace std;
