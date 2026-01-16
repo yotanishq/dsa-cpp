@@ -1,3 +1,5 @@
+// Returns elements of a matrix in spiral order.
+// Time: O(rows * columns), Space: O(1) excluding output
 # include<iostream>
 # include<vector>
 using namespace std;
