@@ -6,7 +6,6 @@
 using namespace std;
 int main(){
     vector<int> nums={3,4,5,1,2};
-    int minm=nums[0];
     int n= nums.size();
     int l=0,r=n-1;
     while(l<r){
