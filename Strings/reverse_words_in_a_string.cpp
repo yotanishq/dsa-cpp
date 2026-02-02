@@ -1,3 +1,7 @@
+// Reverses the order of words in a string while removing extra spaces.
+// Uses manual parsing to extract words and rebuild the string in reverse order.
+// Time Complexity: O(S), where S is the length of the string.
+// Space Complexity: O(S)
 # include <iostream>
 # include <string>
 using namespace std;
